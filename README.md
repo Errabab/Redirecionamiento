@@ -1,5 +1,5 @@
 # Redirecionamiento
-![portada](img/portada.jfif)
+![portada](img/portada2.jfif)
 ## Genera un archivo llamado informe.txt que contenga la siguiente información:
   * La fecha del sistema formateada. <!--date +'%d/%m/%Y %H:%M'-->
   * El espacio en disco.  <!--df -h-->
