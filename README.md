@@ -7,7 +7,7 @@
 Hay que subir una imagen de que el script ha sido ejecutado con éxito.
 
 # Respuestas:
-## Script
+* Script
 ```
 #!bin/bash <!--primera linea obligatoria-->
 echo "Fecha del sistema formateada: $(date +'%d/%m/%Y %H:%M')"
@@ -19,3 +19,5 @@ echo "Los usurios conectados al sitema son:"
 (who)
 ```
 
+* Imagenes
+![resultado](img/resultado_script.png)
