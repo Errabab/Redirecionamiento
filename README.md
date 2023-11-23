@@ -8,7 +8,7 @@ Hay que subir una imagen de que el script ha sido ejecutado con éxito.
 
 # Respuestas:
 ## Script
-'''
+```
 #!bin/bash <!--primera linea obligatoria-->
 echo "Fecha del sistema formateada: $(date +'%d/%m/%Y %H:%M')"
 echo "Espacio en el disco es:" 
@@ -17,5 +17,5 @@ echo "Memoria libre del sistema es : "
 (free -h)
 echo "Los usurios conectados al sitema son:"
 (who)
-'''
+```
 
