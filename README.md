@@ -19,11 +19,12 @@ echo "Los usurios conectados al sitema son:"
 (who) <!--comando para ver los usuarios conectados-->
 
 ```
+---
 Para hacer que el script guardara todos los datos en un archivo llamado informe.txt se podia hacer de dos maneras: 
 * Que detras de cada linea de comando pusieramos `>informe.txt` en la primera `>>inform.txt` en la segunda y asi sucesivamente.
 * Antes de ejecutar el sh script.sh añadirle al final el >informe.txt. y esto quedaria:
   `sh script.sh >informe.txt`
-
+---
 
 * Resultado
 ![resultado](img/resultado_script.png)
