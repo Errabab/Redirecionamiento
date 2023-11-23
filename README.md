@@ -10,14 +10,14 @@ Hay que subir una imagen de que el script ha sido ejecutado con éxito.
 * Script
 ```
 #!bin/bash <!--primera linea obligatoria-->
-echo "Fecha del sistema formateada: $(date +'%d/%m/%Y %H:%M')"
+echo "Fecha del sistema formateada: $(date +'%d/%m/%Y %H:%M')" <!--comando para ver la fecha y la hora-->
 echo "Espacio en el disco es:" 
-(df -h) 
+(df -h) <!--comando para ver el espacio del disco-->
 echo "Memoria libre del sistema es : "
-(free -h)
+(free -h) <!--comando para ver el espacio libre del disco-->
 echo "Los usurios conectados al sitema son:"
-(who)
+(who) <!--comando para ver los usuarios conectados-->
 ```
 
-* Imagenes
+* Resultado
 ![resultado](img/resultado_script.png)
